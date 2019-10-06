@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+}
+
+.icons {
+  border-bottom: 2px solid #3ba9f4;
+  box-shadow: 0 1px 0 darken(#3ba9f4, 20%);
+  padding: 20px;
+  perspective: 2000px;
+}
+
+.icons .fab {
+  display: inline-block;
+  font-size: 100px;
+  color: #3ba9f4;
+  margin: 30px;
+  position: relative;
+  cursor: pointer;
+  text-shadow: 2px 4px 0 darken(#3ba9f4, 20%);
+  transform: rotate3d(1, 0, 0, 70deg);
+  transform-origin: 50% 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.icons .fab:hover {
+  transform: rotate3d(0, 0, 0, 0deg);
+}
