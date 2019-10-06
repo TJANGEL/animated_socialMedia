@@ -12,8 +12,7 @@ body {
 }
 
 .icons {
-  border-bottom: 2px solid #3ba9f4;
-  box-shadow: 0 1px 0 darken(#3ba9f4, 20%);
+  border-bottom: 2px solid cornsilk;
   padding: 20px;
   perspective: 2000px;
 }
@@ -21,7 +20,6 @@ body {
 .icons .fab {
   display: inline-block;
   font-size: 100px;
-  color: #3ba9f4;
   margin: 30px;
   position: relative;
   cursor: pointer;
@@ -33,4 +31,24 @@ body {
 
 .icons .fab:hover {
   transform: rotate3d(0, 0, 0, 0deg);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: purple;
+}
+
+a.github {
+  color: black;
 }
